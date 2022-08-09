@@ -4,15 +4,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menuItems = <>
-        <li className='text-black font-bold text-xl'><Link to="/">Home</Link></li>
-         <li className='text-black font-bold text-xl'><Link to="/schedule">Courses</Link></li>
-        <li className='text-black font-bold text-xl'><Link to="/dashboard">DashBoard</Link></li>
-        <li>
-           
-                <button className='w-24 lg:w-32'><span className='text-black font-bold lg:text-xl mr-0'>Sign Out</span></button> :
-                <Link className='text-black ml-4 font-bold lg:text-xl lg:mt-3' to="/login"></Link>
-        </li>
-
+        <li className='text-[#D1AB71] font-bold lg:ml-96'><Link to="/">Home</Link></li>
+        <li className='text-[#D1AB71] font-bold'><Link to="/dashboard">DashBoard</Link></li>
     </>
 
     return (
@@ -27,8 +20,7 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    {/* <img  src={logo} alt="" /> */}
-                    <p>Anfdsf</p>
+                    <p className='text-xl lg:text-3xl ml-24'>Anaitic.com</p>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 ml-96">
