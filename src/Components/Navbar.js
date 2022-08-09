@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../images/logo.png"
 
 const Navbar = () => {
 
@@ -18,7 +19,8 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <p className='text-xl lg:text-3xl ml-16'>Anaitic.com</p>
+                    <img className='w-12 rounded-full ml-12' src={logo} alt="" />
+                    <p className='text-xl lg:text-3xl ml-2'>Anaitic.com</p>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 ml-96">
