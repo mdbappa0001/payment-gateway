@@ -1,0 +1,38 @@
+[
+    {
+      "_id": 1,
+      "name": "App Development",
+      "img": "https://i.ibb.co/Vp2vLMS/app.png",
+      "price": 25
+    },
+    {
+      "_id": 2,
+      "name": "Artificial Intelligence",
+      "img": "https://i.ibb.co/mv9wZd9/artificial.png",
+      "price": 30
+    },
+    {
+      "_id": 3,
+      "name": "Python Programming",
+      "img": "https://i.ibb.co/5x20pBb/python.png",
+      "price": 12
+    },
+    {
+      "_id": 4,
+      "name": "Robotics",
+      "img": "https://i.ibb.co/CbZtrsV/robot.png",
+      "price": 15
+    },
+    {
+      "_id": 5,
+      "name": "AR & VR",
+      "img": "https://i.ibb.co/ftK7sxc/ar.png",
+      "price": 45
+    },
+    {
+      "_id": 6,
+      "name": "Game Programming",
+      "img": "https://i.ibb.co/d5bHjCy/games.png",
+      "price": 30
+    }
+  ]
